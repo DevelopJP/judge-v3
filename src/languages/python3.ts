@@ -9,8 +9,8 @@ export const lang =  {
         // To customize the compilation process,
         // write a shell script or some other stuff, 
         // and put it to your sandbox.
-        executable: "/usr/bin/python3",
-        parameters: ["python3", sourcePath, outputDirectory, "python3 -m py_compile a.py"],
+        executable: "/usr/bin/compilepass",
+        parameters: ["compilepass", sourcePath, outputDirectory, "compilepass"],
         time: 5000,
         memory: 1024 * 1024 * 1024,
         process: 10,
