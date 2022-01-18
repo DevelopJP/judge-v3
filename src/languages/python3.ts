@@ -10,7 +10,7 @@ export const lang =  {
         // write a shell script or some other stuff, 
         // and put it to your sandbox.
         executable: "/usr/bin/python3",
-        parameters: ["compile-script", sourcePath, outputDirectory, "python3 -m py_compile a.py"],
+        parameters: ["python3", sourcePath, outputDirectory, "python3 -m py_compile a.py"],
         time: 5000,
         memory: 1024 * 1024 * 1024,
         process: 10,
